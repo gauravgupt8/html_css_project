@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:hover {
+  color: #340166;
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+#navbar_logo {
+  height: 25px;
+  padding-left: 10px;
+}
+
+#navbar_supported_content {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 65px;
+}
+
+.navbar-nav {
+  border-top: 1px solid #340166;
+  border-bottom: 1px solid #340166;
+  text-align: center;
+}
+
+.navbar-toggler-icon {
+  position: absolute;
+  right: 8px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(52,1,102)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item {
+  background-color: #340166;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#nav_item_logo {
+  display: none;
+}
+
+.nav-item:hover {
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.nav-item a {
+  color: #FFFFFF;
+}
+
+.nav-item:hover a {
+  color: #340166;
+}
+
+#carousel_controls {
+  border-style: solid;
+  border-color: #340166;
+  border-width: 12px 15px;
+}
+
+.arrow-icon {
+  width: 25px;
+  height: 30px;
+  position: absolute;
+}
+
+#arrow_left {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+#arrow_right {
+  right: 0;
+}
+
+.carousel-item {
+  height: 170px;
+}
+
+.body-content {
+  margin: auto 15px;
+}
+
+.ad-block {
+  margin-top: 25px;
+}
+
+.ad-block__image img {
+  width: 100%;
+  height: auto;
+}
+
+.ad-block__content {
+  margin-top: 15px;
+}
+
+.ad-block__content p {
+  color: #8083A7;
+}
+
+.ad-block__content span {
+  display: block;
+}
+
+.banner-block {
+  padding: 45px 30px;
+  margin-top: 50px;
+  height: 258px;
+  background-color: #FFCC00;
+  text-align: center;
+  font-size: 17px;
+  color: #5A2049;
+}
+
+.banner-content img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  bottom: 55px;
+  display: block;
+}
+
+.fruit-blog {
+  text-align: center;
+  margin: 100px 15px auto;
+  color: #340166;
+}
+
+.fruit-blog p {
+  margin: 25px auto;
+}
+
+.quote-block {
+  margin-bottom: 30px;
+}
+
+.quote-block p {
+  font-style: italic;
+  color: #340166;
+  text-align: center;
+  margin: 25px auto;
+}
+
+.quote-block--first,
+.quote-block--second {
+  padding: 0;
+  margin: auto 15px;
+}
+
+.quote-block--first {
+  border-top: 1px solid #bdbdbd;
+}
+
+.quote-block--first::after {
+  content: "";
+  height: 1px;
+  width: 50%;
+  background: #bdbdbd;
+  display: block;
+  left: 50%;
+  top: 100%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+#page_footer {
+  background-color: #340166;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 60px;
+}
