@@ -188,6 +188,7 @@ a:hover {
   }
 
   #navbar_supported_content {
+    margin: 10px;
     position: unset;
     top: auto;
   }
@@ -205,6 +206,7 @@ a:hover {
   .navbar-nav {
     width: 100%;
     border: none;
+    justify-content: center;
   }
 
   .nav-item {
@@ -225,12 +227,32 @@ a:hover {
 
   .quote-block--first,
   .quote-block--second {
-    padding: 0;
+    padding: 0 15px;
+    margin: 0;
+  }
+
+  .quote-block--first {
+    border: none;
+  }
+
+
+  .quote-block--first p,
+  .quote-block--second p {
+    padding-top: 20px;
+    border-top: 1px solid #bdbdbd;
     margin: 0;
   }
 
   .fruit-section {
     max-width: 450px;
     margin: auto;
+  }
+
+  .fruit-blog h2 {
+    padding-top: 20px;
+  }
+
+  .fruit-blog p {
+    max-width: 70%;
   }
 }
