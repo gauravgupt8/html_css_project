@@ -159,7 +159,7 @@ a:hover {
   border-top: 1px solid #bdbdbd;
 }
 
-.quote-block--first::after {
+/* .quote-block--first::after {
   content: "";
   height: 1px;
   width: 50%;
@@ -169,7 +169,7 @@ a:hover {
   top: 100%;
   position: absolute;
   transform: translateX(-50%);
-}
+} */
 
 #page_footer {
   background-color: #340166;
@@ -239,8 +239,41 @@ a:hover {
   .quote-block--first p,
   .quote-block--second p {
     padding-top: 20px;
-    border-top: 1px solid #bdbdbd;
     margin: 0;
+  }
+
+  /* .quote-block--first {
+    top: 51%;
+    width: 65px;
+    left: 95%;
+    transform: rotateZ(90deg);
+  } */
+  .quote-block--first p, .quote-block--second p {
+    position: relative;
+  }
+
+  .quote-block--first p:before, .quote-block--second p:before {
+    width: 98%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 1px;
+    background: #ccc;
+    transform: translateX(-50%);
+  }
+
+  .quote-block--first p:after {
+    width: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    height: 50px;
+    background: #ccc;
+    transform: translateY(-50%);
   }
 
   .fruit-section {
